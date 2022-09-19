@@ -6,5 +6,5 @@
 
     - name: Deploy static website
       copy:
-        src: /var/lib/jenkins/workspace/ansibleproj2/ # We have define a html page
-        dest: /opt/tomcat/webapps/ansibleproj2/
+        src: /var/lib/jenkins/workspace/ansibleproj/ # We have define a html page
+        dest: /opt/tomcat/webapps/ansibleproj/
